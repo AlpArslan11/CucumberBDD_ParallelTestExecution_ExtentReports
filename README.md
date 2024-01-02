@@ -14,7 +14,7 @@
 #### maven-surefire-plugin 3.0.0-M7
 #### maven-cucumber-reporting 5.0.0
 
-### 1 - Run from Runner class to get Extent and Cucumber reports or from CLI/Terminal '''mvn test -Dtest=Runner'''
+### 1 - Run from Runner class to get Extent and Cucumber reports or from CLI/Terminal mvn test -Dtest=Runner
 #### ExtentHtml Report
 #### ExtentPdf Report
 #### Spark Report
