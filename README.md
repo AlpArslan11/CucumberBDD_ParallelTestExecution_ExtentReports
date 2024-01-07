@@ -13,18 +13,19 @@
 #### maven-failsafe-plugin 3.0.0-M7
 #### maven-surefire-plugin 3.0.0-M7
 #### maven-cucumber-reporting 5.0.0
-
+---
 ### 1 - Run from Runner class to get Extent and Cucumber reports or from CLI/Terminal mvn test -Dtest=Runner
 #### ExtentHtml Report
 #### ExtentPdf Report
 #### Spark Report
 #### Cucumber Report
-
+---
 ### 2 -  With the help of Hooks class and @After method it takes screenshot of the failed scenarios and attaches to the reports, ExtentHtml, ExtentPdf, Spark and Cucumber Report.
-
+---
 ### 3 -  To run in parallel mode use maven test/verify/install. It wil run parallel test execution according to the tags written in Runner and TestRunner classes.
-
+---
 ### 4 -  Run smoke tests with Jenkins using the mvn code -> mvn test -Dtest=Runner -Dcucumber.filter.tags="@smoke"
+---
 ![1-extentHtml](https://github.com/AlpArslan11/CucumberBDD_ParallelTestExecution_ExtentReports/assets/101150339/6bf9ec3c-9bca-485d-a6a8-4a7c6c85a17e)
 ![2-extentpdf](https://github.com/AlpArslan11/CucumberBDD_ParallelTestExecution_ExtentReports/assets/101150339/039b25c9-b957-4e8e-99f5-2b9198782d3f)
 ![3-spark](https://github.com/AlpArslan11/CucumberBDD_ParallelTestExecution_ExtentReports/assets/101150339/98b618d1-d901-42d6-84b8-33f9b1a848c5)
